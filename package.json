@@ -1,0 +1,42 @@
+{
+    "name": "nginx-formatter",
+    "displayName": "nginx-formatter",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Simon Schneider",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:NGINX"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "languages": [
+            {
+                "id": "NGINX",
+                "aliases": [
+                    "nginx"
+                ],
+                "extensions": [
+                    "shanoor.vscode-nginx"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install && tsc"
+    },
+    "dependencies": {
+        "nginx-conf": "1.4.0"
+    },
+    "devDependencies": {
+        "@types/node": "*",
+        "vscode": "1.0.3",
+        "typescript": "2.0.6"
+    }
+}

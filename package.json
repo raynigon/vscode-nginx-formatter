@@ -3,7 +3,7 @@
     "displayName": "nginx-formatter",
     "description": "",
     "version": "0.0.1",
-    "publisher": "Simon Schneider",
+    "publisher": "raynigon",
     "engines": {
         "vscode": "^1.6.0"
     },
@@ -32,11 +32,11 @@
         "postinstall": "node ./node_modules/vscode/bin/install && tsc"
     },
     "dependencies": {
-        "nginx-conf": "1.4.0"
+        "nginx-conf": ">=1.4.0"
     },
     "devDependencies": {
         "@types/node": "*",
-        "vscode": "1.0.3",
-        "typescript": "2.0.6"
+        "vscode": ">=1.0.3",
+        "typescript": ">=2.0.6"
     }
 }

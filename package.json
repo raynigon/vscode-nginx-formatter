@@ -13,6 +13,10 @@
     "activationEvents": [
         "onLanguage:NGINX"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raynigon/vscode-nginx-formatter"
+    },
     "main": "./out/src/extension",
     "contributes": {
         "languages": [

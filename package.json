@@ -1,14 +1,26 @@
 {
     "name": "nginx-formatter",
     "displayName": "nginx-formatter",
-    "description": "",
-    "version": "0.0.1",
+    "description": "Formats Nginx Configuration",
+    "version": "0.0.2",
     "publisher": "raynigon",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/nginx.png",
+    "galleryBanner": {
+        "color": "#1289B9",
+        "theme": "dark"
+    },
+    "keywords": [
+        "nginx",
+        "format",
+        "formatter",
+        "configuration"
+    ],
     "engines": {
         "vscode": "^1.6.0"
     },
     "categories": [
-        "Other"
+        "Formatters"
     ],
     "activationEvents": [
         "onLanguage:NGINX"
@@ -25,13 +37,17 @@
                 "aliases": [
                     "nginx"
                 ],
-                "extensions": [
-                    "shanoor.vscode-nginx"
+                "filenamePatterns": [
+                    "*.conf",
+                    "NGINX"
                 ]
             }
         ],
         "commands": []
     },
+    "extensionDependencies":[
+        "shanoor.vscode-nginx"
+    ],
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install && tsc"
     },

@@ -52,7 +52,7 @@
         "postinstall": "node ./node_modules/vscode/bin/install && tsc"
     },
     "dependencies": {
-        "nginx-conf": ">=1.4.0"
+        "nginx-conf": ">=1.5.0"
     },
     "devDependencies": {
         "@types/node": "*",

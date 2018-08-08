@@ -2,5 +2,5 @@
 
 Simply formats your NGINX Configurations
 
-Known Bugs:
- - Deletes Comments from file while formatting
+## Used Libaries
+ - https://github.com/tmont/nginx-conf

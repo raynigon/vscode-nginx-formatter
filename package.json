@@ -2,7 +2,7 @@
     "name": "nginx-formatter",
     "displayName": "nginx-formatter",
     "description": "Formats Nginx Configuration",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "raynigon",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/nginx.png",

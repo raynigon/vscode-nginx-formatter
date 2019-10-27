@@ -11,4 +11,4 @@ Simply formats your NGINX Configurations
 ![Usage Gif](/images/usage.gif)
 
 ## Used Libaries
- - https://github.com/tmont/nginx-conf
+ - https://github.com/vasilevich/nginxbeautifier

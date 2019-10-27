@@ -46,7 +46,7 @@
         "commands": []
     },
     "extensionDependencies":[
-        "shanoor.vscode-nginx"
+        "william-voyek.vscode-nginx"
     ],
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install && tsc"

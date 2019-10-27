@@ -23,7 +23,9 @@
         "Formatters"
     ],
     "activationEvents": [
-        "onLanguage:NGINX"
+        "onLanguage:NGINX",
+        "onLanguage:NGINX Conf",
+        "onLanguage:nginx"
     ],
     "repository": {
         "type": "git",
@@ -39,20 +41,25 @@
                 ],
                 "filenamePatterns": [
                     "*.conf",
-                    "NGINX"
+                    "NGINX",
+                    "nginx"
                 ]
             }
         ],
         "commands": []
     },
-    "extensionDependencies":[
+    "extensionDependencies": [
         "william-voyek.vscode-nginx"
     ],
     "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "tslint -p ./",
+        "watch": "tsc -watch -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install && tsc"
     },
     "dependencies": {
-        "nginx-conf": ">=1.5.0"
+        "nginxbeautifier": "^1.0.18"
     },
     "devDependencies": {
         "@types/node": "*",

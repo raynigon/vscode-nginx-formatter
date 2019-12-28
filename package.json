@@ -35,15 +35,17 @@
     "contributes": {
         "languages": [
             {
-                "id": "NGINX",
+                "id": "nginx",
                 "aliases": [
+                    "NGINX Conf",
                     "nginx"
                 ],
-                "filenamePatterns": [
-                    "*.conf",
-                    "NGINX",
-                    "nginx"
-                ]
+                "extensions": [
+                    "nginx.conf",
+                    ".conf",
+                    ".nginx"
+                ],
+                "configuration": "./language-configuration.json"
             }
         ],
         "commands": []

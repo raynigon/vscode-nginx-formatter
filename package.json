@@ -2,7 +2,7 @@
     "name": "nginx-formatter",
     "displayName": "nginx-formatter",
     "description": "Formats Nginx Configuration",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "raynigon",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/nginx.png",
@@ -58,14 +58,16 @@
         "compile": "tsc -p ./",
         "lint": "tslint -p ./",
         "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install && tsc"
+        "postinstall": "node ./node_modules/vscode/bin/install && tsc",
+        "package": "vsce package",
+        "publish": "vsce publish"
     },
     "dependencies": {
         "nginxbeautifier": "^1.0.18"
     },
     "devDependencies": {
-        "@types/node": "*",
-        "vscode": ">=1.0.3",
-        "typescript": ">=2.0.6"
+        "@types/node": "^13.7.0",
+        "typescript": "^3.7.5",
+        "vscode": "^1.1.36"
     }
 }

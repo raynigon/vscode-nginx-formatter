@@ -22,7 +22,7 @@ jobs:
         # deploy to Azure Web App.
         npm install
         npx vsce package
-        npx vsce publish
+        npx vsce publish -p "${{ secrets.VSCE_PUBLISHER_TOKEN }}"
     - name: GH Release
       uses: softprops/action-gh-release@v0.1.5
       env:

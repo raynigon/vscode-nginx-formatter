@@ -2,7 +2,7 @@
     "name": "nginx-formatter",
     "displayName": "nginx-formatter",
     "description": "Formats Nginx Configuration",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "publisher": "raynigon",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/nginx.png",
@@ -68,6 +68,7 @@
     "devDependencies": {
         "@types/node": "13.11.1",
         "typescript": "3.8.3",
+        "vsce": "^1.77.0",
         "vscode": "1.1.36"
     }
 }

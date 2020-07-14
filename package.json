@@ -51,7 +51,7 @@
         "commands": []
     },
     "extensionDependencies": [
-        "william-voyek.vscode-nginx"
+        "hangxingliu.vscode-nginx-conf-hint"
     ],
     "scripts": {
         "vscode:prepublish": "npm run compile",

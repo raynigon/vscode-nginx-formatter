@@ -63,7 +63,7 @@
         "publish": "vsce publish"
     },
     "dependencies": {
-        "nginxbeautifier": "1.0.18"
+        "nginxbeautifier": "1.0.19"
     },
     "devDependencies": {
         "@types/node": "13.11.1",

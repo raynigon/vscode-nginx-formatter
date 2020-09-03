@@ -66,7 +66,7 @@
         "nginxbeautifier": "1.0.19"
     },
     "devDependencies": {
-        "@types/node": "14.0.23",
+        "@types/node": "14.6.3",
         "typescript": "3.9.7",
         "vsce": "^1.77.0",
         "vscode": "1.1.37"

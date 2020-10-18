@@ -38,6 +38,7 @@
                 "id": "nginx",
                 "aliases": [
                     "NGINX Conf",
+                    "NGINX",
                     "nginx"
                 ],
                 "extensions": [

@@ -52,7 +52,7 @@
         "commands": []
     },
     "extensionDependencies": [
-        "hangxingliu.vscode-nginx-conf-hint"
+        "ahmadalli.vscode-nginx-conf"
     ],
     "scripts": {
         "vscode:prepublish": "npm run compile",

@@ -1,0 +1,15 @@
+pull_request_rules:
+  - name: dependabot
+    conditions:
+      - and:
+        - -draft
+        - base=main
+        - -closed
+        - -conflict
+        - label=dependencies
+        - author=dependabot[bot]
+        - check-success=javadoc
+        - check-success=Codacy Static Code Analysis
+    actions:
+      merge:
+        method: merge

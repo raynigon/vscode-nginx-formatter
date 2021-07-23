@@ -3,13 +3,11 @@ pull_request_rules:
     conditions:
       - and:
         - -draft
-        - base=main
+        - base=master
         - -closed
         - -conflict
         - label=dependencies
         - author=dependabot[bot]
-        - check-success=javadoc
-        - check-success=Codacy Static Code Analysis
     actions:
       merge:
         method: merge
